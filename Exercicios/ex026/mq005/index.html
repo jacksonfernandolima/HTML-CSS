@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem beatae ullam totam, molestias voluptate nisi quisquam, laboriosam eveniet quos repellat cupiditate consequuntur aspernatur a aut saepe laborum! Nam, assumenda quae.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ipsam numquam, perspiciatis iste dolorum sequi, dicta ex tenetur esse vitae laboriosam odio officia distinctio dolorem at id! Saepe, voluptas similique?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates maiores? Minima non qui ab similique! Architecto suscipit ab voluptatibus mollitia impedit nulla similique illo quae voluptas, at animi iste.</p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == "block") {
+            itens.style.display = "none"
+           } else {
+            itens.style.display = "block"
+           }
+
+        }
+    </script>
+</body>
+</html>
